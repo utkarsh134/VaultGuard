@@ -12,18 +12,20 @@ body{
 
 .container{
     width: 90%;
-    max-width: 500px;
-    margin: 12%;
+    max-width: 800px;
+    margin: 10%;
 }
 
 .container h1{
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 3vw;
     font-weight: 500;
     color: #fff;
 }
 
 .container span{
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 3vw;
     font-weight: 500;
     color: #09a06b ;
     border-bottom: 3px solid #09a06b ;
@@ -32,15 +34,15 @@ body{
 }
 
 #display{
-    width: 100%;
-    /* max-width: 300px; */
+    /* width: 100%; */
+    width: 40vw;
     background-color: #fff;
     color: #333;
     border: 2px solid #fff;
-    border-radius: 3px;
-    margin-top: 30px;
-    margin-bottom: 25px;
-    padding: 10px;
+    border-radius: 4px;
+    margin-top: 3vmax;
+    margin-bottom: 1.7vmax;
+    padding: .6vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,10 +51,11 @@ body{
 }
 
 #display input{
+    width: 80%;
     outline: 0;
     border: 0;
     background-color: #fff;
-    font-size: 25px;
+    font-size: 2vw;
     font-weight: 550;
     padding: 5px ;
 
@@ -65,26 +68,32 @@ body{
 
 
 #generatebtn{
-    width: 43%;
+    width: 9vmax;
     color: #fff;
-    padding: 12px;
-    font-size: 17px;
-    font-weight: 200;
+    padding: .7vmax;
+    font-size: 1.3vmax;
+    font-weight: 400;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: #029b66;
+    cursor: pointer;
+    border: none;
+    outline: none;
 
 }
 
 
 #display img{
-    width: 30px;
+    width: 2vmax;
+    height: 2vmax;
+    
     cursor: pointer;
 }
 
 #generatebtn img{
-    width: 24px;
+    width: 2vmax;
+    height: 2vmax;
     cursor: pointer;
 }
